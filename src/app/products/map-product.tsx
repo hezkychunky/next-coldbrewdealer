@@ -45,7 +45,7 @@ const productDetail: IProductDetail[] = [
 export default function MapProduct() {
    return productDetail.map((product) => {
       return (
-         <div className="bg-white flex p-2 rounded-lg w-96 sm:h-44 h-auto gap-2 hover:scale-105 hover:shadow-md hover:shadow-gray-800">
+         <div key={product.productname} className="bg-white flex p-2 rounded-lg w-96 sm:h-44 h-auto gap-2 hover:scale-105 hover:shadow-md hover:shadow-gray-800">
             <Image src={product.image} alt="product image" width={150} height={90}/>
             <div className=" flex flex-col gap-4">
                <h1 className="text-2xl text-lime-600">
