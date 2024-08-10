@@ -18,7 +18,7 @@ export default function Home() {
               <Link href="/products" className="bg-white px-2 rounded-lg font-semibold hover:text-lime-600 hover:shadow-md hover:shadow-gray-600">Click here to see all products!</Link>
             </div>
          </div>
-         <h1 className="text-4xl text-gray-900 text-center mb-8 pt-12">Reviews</h1>
+         <h1 className="text-4xl text-gray-900 text-center mb-8 pt-20">Reviews</h1>
          <div className="flex flex-wrap justify-between gap-2">
           <Reviews/>
          </div>

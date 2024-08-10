@@ -1,10 +1,12 @@
+import Image from "next/image";
 
 
 export default function History() {
    return(
-      <div className="pt-28 pb-8 px-10 h-auto xl:h-screen flex flex-col items-center gap-12 bg-lime-600">
+      <div className="pt-28 pb-8 px-10 h-auto flex flex-col items-center gap-12 bg-lime-600">
          <h1 className="text-4xl font-extrabold text-gray-900">Our History</h1>
-         <p className="text-lg">Coldbrew Dealer started like any great food and beverage company - in a kitchen somewhere, this time in Brooklyn, NY. Working in production at GQ, Grady began to sling his signature brew in the elevator banks at Conde Nast. Word spread quickly and soon people were hounding him for their fix. It was not long before Coldbrew Dealer have Cold Brew received the highly covetable GQ feature and Grady quit his day job. Partnering with co-founders Dave and Kyle, the three hustled to brew and distribute all week and gain exposure selling iced coffee by the cup at Smorgasburg on weekends.
+         <Image src="/about.webp" alt="" width={1000} height={500} />
+         <p className="text-lg md:text-justify">Coldbrew Dealer started like any great food and beverage company - in a kitchen somewhere, this time in Brooklyn, NY. Working in production at GQ, Grady began to sling his signature brew in the elevator banks at Conde Nast. Word spread quickly and soon people were hounding him for their fix. It was not long before Coldbrew Dealer have Cold Brew received the highly covetable GQ feature and Grady quit his day job. Partnering with co-founders Dave and Kyle, the three hustled to brew and distribute all week and gain exposure selling iced coffee by the cup at Smorgasburg on weekends.
          <br/>
          <br/>
          Fast-forward to 2021, and we are all moved into our new 15,000 sq. ft. brewery in the Bronx. It is a wonderland of stainless steel tanks and machinery that will allow the company to maintain premium quality, while growing in volume.
