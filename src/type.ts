@@ -23,3 +23,9 @@ export interface ITeams {
    location: ILocation;
    picture: IPicture;
 }
+
+export interface IReviews {
+   name: string;
+   image: string;
+   text: string;
+}
